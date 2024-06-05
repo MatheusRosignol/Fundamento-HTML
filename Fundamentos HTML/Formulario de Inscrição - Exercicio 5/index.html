@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <h1><b>Formulário de Inscrição</b></h1>
+
+    <form>
+        <!--Campo Nome-->
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Coloque seu nome">
+        </div>
+        <br>
+        
+        <!--Campo Email-->
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <!--Campo Número-->
+        <div>
+            <label for="telefone">WhatsApp:</label><br>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+        <br>
+        <!--Campo Área de atuação-->
+        <div>
+            <label>Área de atuação:</label><br>
+
+            <input type="radio" name="atuacao" id="desenvolvimento">
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="atuacao" id="QA">
+            <label for="QA">Quality Assurance(QA)</label>
+
+            <input type="radio" name="atuacao" id="Analise">
+            <label for="Analise">Análise de Dados</label>
+
+            <input type="radio" name="atuacao" id="Infra">
+            <label for="Infra">Infraestrutura</label>
+        </div>
+        <br>
+
+        <!--Campo de Multiplas Linhas-->
+        <div>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes"></textarea>
+        </div>
+        <br>
+
+        <!--Campo Checkbox-->
+        <div>
+            <input type="checkbox" id="ofertas" value="ofertas" name="ofertas">
+            <label for="ofertas"> Desejo receber novidades e ofertas por email.</label>
+        </div>
+        <!--Botão de Envio-->
+        <button type="submit">Enviar</button>
+        
+    </form>
+    
+</body>
+</html>
